@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+  id          = "nl.buas.agm.pr8.demo"
+  version     = "1.0.0" >
+
+  <name>PR8 Demo</name>
+
+  <description>
+    A demo for the purpose of PR8.
+  </description>
+
+  <author href="https://www.buas.nl/" email="velt.r@buas.nl">
+    Raphael Velt, Media
+  </author>
+
+  <plugin name="cordova-plugin-whitelist" />
+  <access origin="https://*"/>
+  <allow-intent href="tel:*" />
+</widget>
