@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PR8 Demo</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link href="leaflet/leaflet.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark buas-orange-bg">
+       <a class="navbar-brand" href="#">PR8 Demo</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="staff.html">Who we are</a>
+             </li>
+             <li class="nav-item active">
+                <a class="nav-link" href="map.html">Where we are <span class="sr-only">(current)</span></a>
+             </li>
+          </ul>
+       </div>
+    </nav>
+
+    <div class="container">
+       	<h2>Find us</h2>
+		<div class="w-100 vh-100" id="map"></div>
+    </div>
+	  
+	<footer class="buas-navy-bg text-light mt-5 pb-2">
+		<div class="container pt-5 text-right">
+			<p>
+				<a href="https://www.buas.nl/" target="_blank" class="text-light">&copy; Breda University a.s. 2020</a>
+			</p>
+		</div>
+	</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.3.1.js"></script>
+	<!-- Leaflet maps -->
+	<script src="leaflet/leaflet.js"></script>
+	<script>
+	var map = L.map('map').setView([51.58, 4.78], 13);
+	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+	}).addTo(map);
+		
+	L.marker([51.5905, 4.7953]).addTo(map);
+	</script>
+	  
+  </body>
+</html>
