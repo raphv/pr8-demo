@@ -14,7 +14,7 @@
   </author>
 
   <plugin name="cordova-plugin-whitelist" />
-  <plugin name="cordova-plugin-inappbrowser" spec="^3.2.0" />
+  <plugin name="cordova-plugin-inappbrowser" spec="3.2.0" source="npm" />
   <access origin="*"/>
   <allow-intent href="tel:*" />
   <allow-navigation href="*" />
