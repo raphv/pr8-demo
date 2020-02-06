@@ -16,5 +16,6 @@
   <plugin name="cordova-plugin-whitelist" />
   <access origin="*"/>
   <allow-intent href="tel:*" />
+  <allow-navigation href="*" />
   <preference name="android-minSdkVersion" value="21" />
 </widget>
