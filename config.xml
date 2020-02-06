@@ -15,11 +15,10 @@
   
   <platform name="android" />
   <plugin name="cordova-plugin-whitelist" source="npm" />
-  <plugin name="cordova-plugin-inappbrowser" source="npm" />
   <access origin="*"/>
   <allow-intent href="tel:*" />
   <allow-navigation href="*" />
   <preference name="android-minSdkVersion" value="26" />
-  <preference name="phonegap-version" value="cli-8.1.1" />
+  <preference name="phonegap-version" value="cli-9.0.0" />
   <icon src="icon.png" width="152" height="152" />
 </widget>
