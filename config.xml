@@ -15,6 +15,8 @@
   
   <platform name="android" />
   <plugin name="cordova-plugin-whitelist" source="npm" />
+  <plugin name="cordova-plugin-inappbrowser" source="npm" />
+  <plugin name="cordova-android-support-gradle-release" source="npm" />
   <access origin="*"/>
   <allow-intent href="tel:*" />
   <allow-navigation href="*" />
