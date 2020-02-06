@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
   id          = "nl.buas.agm.pr8.demo"
-  version     = "1.0.0" >
+  version     = "1.0.1" >
 
   <name>PR8 Demo</name>
 
@@ -18,4 +18,5 @@
   <allow-intent href="tel:*" />
   <allow-navigation href="*" />
   <preference name="android-minSdkVersion" value="21" />
+	<icon src="icon.png" width="152" height="152" />
 </widget>
