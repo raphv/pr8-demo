@@ -19,5 +19,6 @@
   <allow-intent href="tel:*" />
   <allow-navigation href="*" />
   <preference name="android-minSdkVersion" value="26" />
-	<icon src="icon.png" width="152" height="152" />
+  <preference name="phonegap-version" value="cli-9.0.0" />
+  <icon src="icon.png" width="152" height="152" />
 </widget>
