@@ -13,7 +13,14 @@
     Raphael Velt, Media
   </author>
   
-  <platform name="android" />
+  <platform name="android">
+	  <icon src="icons/ldpi.png" density="ldpi" />
+      <icon src="icons/mdpi.png" density="mdpi" />
+      <icon src="icons/hdpi.png" density="hdpi" />
+      <icon src="icons/xhdpi.png" density="xhdpi" />
+      <icon src="icons/xxhdpi.png" density="xxhdpi" />
+      <icon src="icons/xxxhdpi.png" density="xxxhdpi" />
+  </platform>
   <plugin name="cordova-plugin-whitelist" source="npm" />
   <plugin name="cordova-plugin-inappbrowser" source="npm" />
   <plugin name="cordova-android-support-gradle-release" source="npm" />
@@ -22,5 +29,4 @@
   <allow-navigation href="*" />
   <preference name="android-minSdkVersion" value="27" />
   <preference name="phonegap-version" value="cli-9.0.0" />
-  <icon src="icon.png" width="152" height="152" />
 </widget>
